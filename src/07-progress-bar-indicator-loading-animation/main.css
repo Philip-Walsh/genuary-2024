@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.loading-bar {
+    width: 50em;
+    height: 10em;
+    background-color: #e0e0e0;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10em;
+    position: absolute;
+    z-index: -1;
+    background-color: #14C2CC;
+    background-image: radial-gradient(circle farthest-side at top right, transparent, #0D64FF),
+        radial-gradient(ellipse farthest-corner at 0% 100%, transparent, #FF00A0);
+    animation: bg-change 10s infinite;
+}
+
+@keyframes bg-change {
+
+    0%,
+    100% {
+        filter: hue-rotate(0deg);
+    }
+
+    50% {
+        filter: hue-rotate(-45deg);
+    }
+}

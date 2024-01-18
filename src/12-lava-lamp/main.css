@@ -1,0 +1,78 @@
+body {
+    background: #1d1e22;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+section {
+    height: 50vh;
+    width: 10em;
+    background: #060606;
+    border-radius: 2em;
+    overflow: hidden;
+    border: 0.3em solid black;
+}
+
+div {
+    margin-left: 20%;
+    padding-left: 40%;
+    mix-blend-mode: exclusion;
+    height: 4em;
+    width: 3em;
+    background: green;
+    border-radius: 2em;
+    position: relative;
+    background: radial-gradient(circle at center in hsl shorter hue, red, blue);
+}
+
+div:nth-of-type(even) {
+    animation: MoveUpDown 9s linear infinite;
+}
+
+div:nth-of-type(odd) {
+    animation: MoveUpDown 10s linear infinite;
+}
+
+div:nth-of-type(1) {
+    animation: MoveUpDown 10s linear infinite;
+    margin-left: 1em;
+}
+
+div:nth-of-type(2) {
+    animation: MoveUpDown 9s linear infinite;
+}
+
+div:nth-of-type(3) {
+    animation: MoveUpDown 13s linear infinite;
+    margin-left: 0.6em;
+}
+
+div:nth-of-type(4) {
+    animation: MoveUpDown 10s linear infinite;
+}
+
+div:nth-of-type(5) {
+    animation: MoveUpDown 6s linear infinite;
+}
+
+div:nth-of-type(6) {
+    animation: MoveUpDown 9s linear infinite;
+}
+
+@keyframes MoveUpDown {
+
+    0%,
+    100% {
+        bottom: -20em;
+        filter: blur(1.4rem);
+        transform: rotate(360deg);
+    }
+
+    50% {
+        bottom: 100%;
+        filter: blur(1.1rem);
+    }
+}
