@@ -8,9 +8,6 @@ GENUARY is not just a month; it's a playground for creators to unleash their cod
 
 This annual event invites participants to embrace the challenge of translating daily prompts into captivating pieces of generative art throughout the entire month of January.
 
-## Join the Code-driven Celebration!
-Each day brings a new opportunity to explore the vast landscape of generative art. With daily prompts that serve as sparks of inspiration, participants embark on a journey of creativity, pushing the boundaries of what code can achieve.
-
 ## My Medium
  ![Javascript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
  ![CSS](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)
