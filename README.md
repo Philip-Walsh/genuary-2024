@@ -45,6 +45,10 @@ Explore my Genuary artworks in my CodePen collection: [View Genuary CodePen Coll
 - [24 - Recreate with code from your photos](24-recreate-with-code-from-your-photos/index.html)
 - [25 - Grow a seed](25-grow-a-seed/index.html)
 - [26 - Code for one hour](26-code-for-one-hour/index.html)
+- [27 - Skeuomorphism](27-skeuomorphism/index.html)
+- [28 - Signed Distance Functions](28-signed-distance-functions/index.html)
+- [29 - Shaders](29-shaders/index.html)
+- [30 - Generative music / Generative audio / Generative sound](30-generative-music-generative-audio-generative-sound/index.html)
 -->
 ## Local Development
 
@@ -72,7 +76,3 @@ To run these artworks locally, follow these steps:
 
 5. Open your browser and visit [localhost:3000/src](http://localhost:3000/src) to see the artworks.
 
-- [27 - Skeuomorphism](27-skeuomorphism/index.html)
-- [28 - Signed Distance Functions](28-signed-distance-functions/index.html)
-- [29 - Shaders](29-shaders/index.html)
-- [30 - Generative music / Generative audio / Generative sound](30-generative-music-generative-audio-generative-sound/index.html) -->
