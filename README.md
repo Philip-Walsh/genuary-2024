@@ -1,40 +1,23 @@
-# genuary-2024
-It's 2024 and GENUARY resolves its Promise! GENUARY is an artificially generated month of time where we build code that makes beautiful things.
+# GENUARY 2024 - Unleashing Creativity with Code!
+Welcome to GENUARY 2024, where promises are resolved, and time becomes an art form! 🚀 
 
-It is an annual event that encourages creators to generate and share creative code-based artwork throughout the month of January. The challenge provides daily prompts, inspiring participants to explore various aspects of generative art.
+In this artificially generated month, we dive into the magical world of code to craft imaginative creations.
 
-## CodePen Collection
+## What is GENUARY?
+GENUARY is not just a month; it's a playground for creators to unleash their coding prowess and produce code-based artworks. 
 
-Explore all the Genuary artworks in my CodePen collection: [View Genuary CodePen Collection](https://codepen.io/collection/ExzxMY)
+This annual event invites participants to embrace the challenge of translating daily prompts into captivating pieces of generative art throughout the entire month of January.
 
-## Local Development
+## Join the Code-driven Celebration!
+Each day brings a new opportunity to explore the vast landscape of generative art. With daily prompts that serve as sparks of inspiration, participants embark on a journey of creativity, pushing the boundaries of what code can achieve.
 
-To run these artworks locally, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Philip-Walsh/genuary-2024.git
-   ```
-
-2. Navigate to the project directory:
-   ```bash
-   cd genuary-2024
-   ```
-
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-4. Start the local server:
-   ```bash
-   npm run start
-   ```
-
-5. Open your browser and visit [localhost:3000/src](http://localhost:3000/src) to see the artworks.
-
-## Artworks
-
+## My Medium
+ ![Javascript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+ ![CSS](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)
+ ![HTML](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)
+ 
+## My Work
+Explore my Genuary artworks in my CodePen collection: [View Genuary CodePen Collection](https://codepen.io/collection/ExzxMY)
 - [01 - Particles, lots of them](https://codepen.io/Philip-Walsh/pen/OJqpoMw)
 - [02 - No palettes](https://codepen.io/Philip-Walsh/details/PoLpdQx)
 - [03 - Droste effect](https://codepen.io/Philip-Walsh/pen/QWopVBL)
@@ -62,6 +45,33 @@ To run these artworks locally, follow these steps:
 - [24 - Recreate with code from your photos](24-recreate-with-code-from-your-photos/index.html)
 - [25 - Grow a seed](25-grow-a-seed/index.html)
 - [26 - Code for one hour](26-code-for-one-hour/index.html)
+-->
+## Local Development
+
+To run these artworks locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Philip-Walsh/genuary-2024.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd genuary-2024
+   ```
+
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Start the local server:
+   ```bash
+   npm run start
+   ```
+
+5. Open your browser and visit [localhost:3000/src](http://localhost:3000/src) to see the artworks.
+
 - [27 - Skeuomorphism](27-skeuomorphism/index.html)
 - [28 - Signed Distance Functions](28-signed-distance-functions/index.html)
 - [29 - Shaders](29-shaders/index.html)
