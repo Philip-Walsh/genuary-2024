@@ -1,0 +1,82 @@
+:root {
+    /*   --dark-red: */
+    --p1: #8c1c13ff;
+    /*     --bittersweet-shimmer:  */
+    --p2: #bf4342ff;
+    /*     --almond:  */
+    --p3: #e7d7c1ff;
+    /*     --beaver:  */
+    --p4: #a78a7fff;
+    /*     --liver:  */
+    --p5: #735751ff;
+    --p6: var(--p2);
+}
+
+body {
+    overflow: hidden;
+}
+
+section {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+
+}
+
+div {
+    min-width: 2em;
+    min-height: 2em;
+}
+
+#horizontal {
+    flex-direction: column;
+}
+
+#horizontal div {
+    background: var(--p6);
+    z-index: 9;
+    width: 100vw;
+    height: 2em;
+}
+
+#horizontal div:nth-of-type(even) {
+    background: var(--p1);
+    z-index: 11;
+}
+
+#horizontal div:nth-of-type(6n),
+#horizontal div:nth-of-type(8n) {
+    background: var(--p3);
+    z-index: 14;
+}
+
+
+#horizontal div:nth-of-type(3n) {
+    background: var(--p3);
+    z-index: 11 !important;
+}
+
+#horizontal div:nth-of-type(5n) {
+    z-index: 9;
+}
+
+#vertical div {
+    background: var(--p1);
+    height: 100vh;
+    width: 4em;
+}
+
+#vertical div:nth-of-type(even) {
+    background: var(--p5);
+    z-index: 11;
+}
+
+#vertical div:nth-of-type(5n) {
+    background: var(--p4);
+    z-index: 12;
+}
+
+#vertical div:nth-of-type(8n) {
+    z-index: 13;
+}

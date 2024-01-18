@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+
+body {
+  font-family: 'Nabla', system-ui;
+  font-size:2em;
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  background:black;
+  color:white;
+}
+canvas{
+  border: 2px solid white;
+}

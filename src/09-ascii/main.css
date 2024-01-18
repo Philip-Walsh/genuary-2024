@@ -1,0 +1,16 @@
+body {
+    color: red;
+    display: flex;
+    background: black;
+    align-items: flex-start;
+}
+
+img,
+pre {
+    padding: 10em;
+}
+
+img {
+    width: 800px;
+    height: 800px;
+}

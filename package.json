@@ -1,0 +1,15 @@
+{
+  "name": "genuary-2024",
+  "version": "1.0.0",
+  "description": "It's 2024 and GENUARY resolves its Promise! GENUARY is an artificially generated month of time where we build code that makes beautiful things.",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=development nodemon index.js"
+  },
+  "author": "Philip Walsh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.3"
+  }
+}

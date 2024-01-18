@@ -1,0 +1,20 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    background: black;
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+}
+
+.container {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+
+.logo {
+    width: 100px;
+}
