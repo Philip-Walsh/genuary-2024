@@ -1,4 +1,3 @@
-// TODO!
 var canvas = document.getElementById("sineWaveCanvas");
 var ctx = canvas.getContext("2d");
 
