@@ -1,7 +1,26 @@
-
 body {
   background: #1d1e22;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+}
+
+canvas {
+  width: 600px;
+  border: 1px solid black;
+  background: white;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 10em;
+  background: #009688;
+  margin: 1em;
+  padding: 1em;
+}
+
+form * {
+  padding: .5em;
 }

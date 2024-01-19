@@ -1,7 +1,45 @@
+:root {
+  --c1: #218380;
+  --c2: #F3A712;
+  --c3: #D81E5B;
+  --c4: #FFFFFF;
+  --c5: #333333;
+}
 
 body {
-  background: #1d1e22;
+  margin: 0;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+  background: var(--c5);
+  gap: 1em;
+}
+
+div {
+  width: 5em;
+  height: 5em;
+  background: var(--c1);
+  /*   border:2px solid black; */
+}
+
+div:nth-of-type(3n + 17) {
+  background: var(--c2) !important;
+}
+
+div:nth-of-type(even) {
+  background: var(--c1);
+}
+
+div:nth-of-type(3n) {
+  background: var(--c2);
+  border-radius: 50%;
+}
+
+div:nth-of-type(5n + 6) {
+  background: var(--c3);
+}
+
+div:nth-of-type(3n + 2) {
+  background: var(--c4);
+  border-radius: 30%;
 }
