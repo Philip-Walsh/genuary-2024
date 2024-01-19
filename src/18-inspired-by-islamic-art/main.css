@@ -1,7 +1,24 @@
+:root {
+  --dark-blue: #020557;
+  --light-blue: #0406ad;
+}
 
 body {
-  background: #1d1e22;
+  background: var(--light-blue);
+  /*   background: linear-gradient(45deg, var(--dark-blue), var(--light-blue)); */
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  overflow: hidden;
+  margin: -5em;
+}
+
+div {
+  border: 3px solid white;
+  box-shadow: inset -1px -1px 2em rgba(0, 0, 0, .6);
+  mix-blend-mode: hard-light;
+  width: 5em;
+  height: 5em;
+  border-radius: 1em;
+  margin: -1em;
 }
