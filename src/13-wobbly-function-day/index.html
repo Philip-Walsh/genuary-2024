@@ -1,12 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>14-wobbly-function-day</title>
-    <link rel="stylesheet" href="main.css">
-  </head>
-  <body>
-    <script src="main.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>14-wobbly-function-day</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+  <canvas id="sineWaveCanvas" width="600" height="200"></canvas>
+
+  <form id="values">
+    <label for="amplitude">Enter Amplitude:</label>
+    <input value=50 type="number" id="amplitude" name="amplitude">
+    <label for="frequency">Enter Frequency:</label>
+    <input value=0.02 type="number" id="frequency" name="frequency">
+    <button type="submit">Update</button>
+  </form>
+
+  <script src="main.js"></script>
+</body>
+
 </html>
