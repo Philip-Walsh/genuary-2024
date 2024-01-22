@@ -6,7 +6,6 @@ function loadImage() {
         .then((url) => {
             const image = new Image();
 
-            // Use the load event to ensure the image is fully loaded
             return new Promise((resolve) => {
                 image.onload = () => {
                     console.log("Image loaded successfully.");
@@ -33,7 +32,6 @@ function convertToASCII(image) {
             const pixel = ctx.getImageData(x, y, 1, 1).data;
             const brightness = (pixel[0] + pixel[1] + pixel[2]) / (3 * 255);
 
-            // Define characters based on brightness
             const characters = [
                 " ",
                 ".",
