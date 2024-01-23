@@ -4,7 +4,8 @@
   "description": "It's 2024 and GENUARY resolves its Promise! GENUARY is an artificially generated month of time where we build code that makes beautiful things.",
   "main": "index.js",
   "scripts": {
-    "start": "NODE_ENV=development nodemon index.js"
+    "start": "NODE_ENV=development nodemon index.js",
+    "test": "node -e \"console.log('test');\""
   },
   "author": "Philip Walsh",
   "license": "ISC",
