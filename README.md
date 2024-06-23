@@ -73,4 +73,3 @@ To run these artworks locally, follow these steps:
    ```
 
 5. Open your browser and visit [localhost:3000/src](http://localhost:3000/src) to see the artworks.
-
